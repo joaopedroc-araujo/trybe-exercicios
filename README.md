@@ -1,4 +1,1 @@
-Meu primeiro repositório Git!
-
-Mudei o README
-hehe
+# Meu repositório de exercícios Trybe!
