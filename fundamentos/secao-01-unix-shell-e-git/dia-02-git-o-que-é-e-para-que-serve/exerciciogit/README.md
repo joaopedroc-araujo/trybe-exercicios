@@ -1,0 +1,7 @@
+Arquivo novo.
+Outra alteração no README.md
+Passo 1: cria-se uma pasta e usa o comando git init. o comando git init inicia o git dentro da pasta selecionada;
+Passo 2: A partir dai, cria-se um branch, que conterá as informações da pasta main (criada no passo 1), mas que só serão alteradas no branch criado. para isso, pode-se utilizar o comando 'git branch nome-da-branch' ou git checkout -b nome-da-branch. a segunda opção cria e já entra no branch feito;
+Passo 3: a partir dai, se houver uma mudança em qualquer arquivo, é preciso adicionar esse arquivo ao staging, utilizando o comando 'git add . ', que manda todos os arquivos para o staging, ou 'git a nome-do-arquivo', para mandar um arquivo especifico;
+Passo 4: logo após, utilizar o comando 'git commit -m 'Descrição do que foi feito';
+Passo final: se o arquivo não tiver erros e puder ir para produção, voltar para o branch main, usando o comando branch checkout main e a partir do branch main, usar o comando git merge nome-do-branch. esse comando fará o branch escolhido se fundir com o main, absorvendo, assim, o que está diferente nos arquivos (se houverem conflitos no arquivo, o proprio git emite um aviso, impedido o merge dos branchs).

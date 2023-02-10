@@ -1,0 +1,8 @@
+Internet      
+Unix
+Bash
+JavaScript
+Web Development
+Hard Skills
+Soft Skills
+SQL
