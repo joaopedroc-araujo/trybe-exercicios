@@ -1,4 +1,4 @@
-let currentHour = 17;
+let currentHour = 3;
 let message = '';
 
 if (currentHour >= 22) {
