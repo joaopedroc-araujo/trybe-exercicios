@@ -1,4 +1,4 @@
- let fruits = [3, 4, 10, 1, 12];
+let fruits = [3, 4, 10, 1, 12];
 let fruitsAdd = 0;
 
 
@@ -26,4 +26,10 @@ if (sum > 15) {
   console.log(sum);
 } else {
   console.log('valor menor que 16');
-}*/
+}
+
+(c==4 || d <=6)   &&    (a >= 5  &&   b != 9)   ||     (!(a<5))
+  F       F                 v            v              v
+                   f                            v
+*/
+
