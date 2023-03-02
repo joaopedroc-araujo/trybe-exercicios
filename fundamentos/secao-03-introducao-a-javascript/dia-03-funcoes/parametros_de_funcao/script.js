@@ -3,7 +3,7 @@
 let clientesTrybeBank = ['Ada', 'John', 'Gus'];
 
 // escreva aqui sua função
-function addClient(client){
+/*function addClient(client){
     if (typeof client === "string") {
         clientesTrybeBank.push(client);
         return 'Cliente adicionado com sucesso';
@@ -15,4 +15,4 @@ function addClient(client){
 console.log(addClient('Roberto'));
 console.log(addClient(13));
 console.log(addClient(true));
-console.log(addClient('Firmino'));
+console.log(addClient('Firmino'));*/
