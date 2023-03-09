@@ -4,8 +4,6 @@ const noEmergencyTasks = document.getElementsByClassName('no-emergency-tasks');
 const footerContainer = document.getElementById('footer-container');
 const changingH3 = document.querySelectorAll('h3');
 
-console.log(changingH3);
-
 const changeColors = () => {
     headerContainer.style.backgroundColor = 'green';
     emergencyTasks[0].style.backgroundColor = '#ff9f84';
@@ -17,6 +15,5 @@ const changeColors = () => {
     footerContainer.style.backgroundColor = '#003533';
     footerContainer.style.marginBottom = 0;
 }
-
 
 changeColors()
